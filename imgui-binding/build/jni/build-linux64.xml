@@ -123,6 +123,8 @@
                     <arg value="-I../../../include/imgui-node-editor"/>
                     <arg value="-I../../../include/imgui-knobs"/>
                     <arg value="-I../../../include/imguizmo"/>
+                    <arg value="-I../../../include/ImGuiColorTextEdit"/>
+
                     <arg value="-I../../../include/imgui_club"/>
                     <arg value="-I../../src/main/native/imgui"/>
                     <arg value="-I../../../include/implot"/>
@@ -130,6 +132,8 @@
                     <arg value="-I../../../include/imgui-node-editor"/>
                     <arg value="-I../../../include/imgui-knobs"/>
                     <arg value="-I../../../include/imguizmo"/>
+                    <arg value="-I../../../include/ImGuiColorTextEdit"/>
+
                     <arg value="-I../../../include/imgui_club"/>
                         <arg value="-I/home/runner/work/imgui-java/imgui-java/include/imgui"/>
                         <arg value="-I/home/runner/work/imgui-java/imgui-java/include/implot"/>
@@ -137,6 +141,8 @@
                         <arg value="-I/home/runner/work/imgui-java/imgui-java/include/imgui-node-editor"/>
                         <arg value="-I/home/runner/work/imgui-java/imgui-java/include/imgui-knobs"/>
                         <arg value="-I/home/runner/work/imgui-java/imgui-java/include/imguizmo"/>
+                    <arg value="-I../../../include/ImGuiColorTextEdit"/>
+
                     <arg value="-I${basedir}/../../../include/imgui"/>
                     <arg value="-I../../../include/imgui"/>
                     <arg value="-I../../../include/implot"/>
@@ -144,6 +150,8 @@
                     <arg value="-I../../../include/imgui-node-editor"/>
                     <arg value="-I../../../include/imgui-knobs"/>
                     <arg value="-I../../../include/imguizmo"/>
+                    <arg value="-I../../../include/ImGuiColorTextEdit"/>
+
                     <arg value="-I../../../"/>
                     <arg value="-I../../../"/>
                     <arg value="-I../../../include/imgui"/>
@@ -166,6 +174,8 @@
                     <arg value="-I../../../include/imgui-node-editor"/>
                     <arg value="-I../../../include/imgui-knobs"/>
                     <arg value="-I../../../include/imguizmo"/>
+                    <arg value="-I../../../include/ImGuiColorTextEdit"/>
+
                     <arg value="-I../../../include/imgui_club"/>
                     <arg value="-I../../src/main/native/imgui"/>
                     <arg value="-I../../../include/implot"/>
@@ -173,6 +183,8 @@
                     <arg value="-I../../../include/imgui-node-editor"/>
                     <arg value="-I../../../include/imgui-knobs"/>
                     <arg value="-I../../../include/imguizmo"/>
+                    <arg value="-I../../../include/ImGuiColorTextEdit"/>
+
                     <arg value="-I../../../include/imgui_club"/>
                         <arg value="-I/home/runner/work/imgui-java/imgui-java/include/imgui"/>
                         <arg value="-I/home/runner/work/imgui-java/imgui-java/include/implot"/>
@@ -180,6 +192,8 @@
                         <arg value="-I/home/runner/work/imgui-java/imgui-java/include/imgui-node-editor"/>
                         <arg value="-I/home/runner/work/imgui-java/imgui-java/include/imgui-knobs"/>
                         <arg value="-I/home/runner/work/imgui-java/imgui-java/include/imguizmo"/>
+                    <arg value="-I../../../include/ImGuiColorTextEdit"/>
+
                     <arg value="-I${basedir}/../../../include/imgui"/>
                     <arg value="-I../../../include/imgui"/>
                     <arg value="-I../../../include/implot"/>
@@ -187,6 +201,8 @@
                     <arg value="-I../../../include/imgui-node-editor"/>
                     <arg value="-I../../../include/imgui-knobs"/>
                     <arg value="-I../../../include/imguizmo"/>
+                    <arg value="-I../../../include/ImGuiColorTextEdit"/>
+
                     <arg value="-I../../../"/>
                     <arg value="-I../../../"/>
                     <arg value="-I../../../include/imgui"/>
