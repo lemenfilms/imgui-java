@@ -23,7 +23,7 @@
 	<!-- define gcc compiler, options and files to compile -->
 	<property name="gcc" value="${compilerPrefix}${cCompiler}${compilerSuffix}"/>	
 	<property name="gcc-opts" value="-c -Wall -O2 -fmessage-length=0 -fPIC"/>
-	<fileset id="gcc-files" dir="./">
+	<fileset id="gcc-files" dir="../../src/main/native">
 		<exclude name="target/"/>		
 		<include name="memcpy_wrap.c"/>
 		<include name="**/*.c"/>
@@ -34,7 +34,7 @@
 	<!-- define g++ compiler, options and files to compile -->
 	<property name="g++" value="${compilerPrefix}${cppCompiler}${compilerSuffix}"/>
 	<property name="g++-opts" value="-c -Wall -O2 -fmessage-length=0 -fPIC -std=c++17"/>
-	<fileset id="g++-files" dir="./">
+	<fileset id="g++-files" dir="../../src/main/native">
 		<exclude name="target/"/>
 		<include name="**/*.cpp"/>
 		
