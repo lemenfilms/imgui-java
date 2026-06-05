@@ -13,34 +13,21 @@ jobs:
           submodules: recursive
 
       - name: Install deps
-        run: sudo apt-get update && sudo apt-get install -y ant openjdk-17-jdk binutils
+        run: sudo apt-get update && sudo apt-get install -y ant openjdk-17-jdk
 
       - name: Setup NDK
         uses: nttld/setup-ndk@v1
         with:
           ndk-version: r27c
 
-      - name: Patch build xml compiler
-        working-directory: imgui-binding/build/jni
+      - name: Debug NDK
         run: |
-          sed -i 's#<property name="cCompiler" value="gcc"/>#<property name="cCompiler" value="aarch64-linux-android21-clang"/>#' build-linux64.xml
-          sed -i 's#<property name="cppCompiler" value="g++"/>#<property name="cppCompiler" value="aarch64-linux-android21-clang++"/>#' build-linux64.xml
-          sed -i "s#<property name=\"compilerPrefix\" value=\"\"/>#<property name=\"compilerPrefix\" value=\"$ANDROID_NDK_HOME/toolchains/llvm/prebuilt/linux-x86_64/bin/\"/>#" build-linux64.xml
-          grep -n "cCompiler\|cppCompiler\|compilerPrefix" build-linux64.xml
+          echo "ANDROID_NDK_HOME=$ANDROID_NDK_HOME"
+          echo "ANDROID_NDK_ROOT=$ANDROID_NDK_ROOT"
 
-      - name: Build
-        working-directory: imgui-binding/build/jni
-        run: ant clean all
+          find / -name aarch64-linux-android21-clang 2>/dev/null | head -20
 
-      - name: Check output
-        working-directory: imgui-binding/build/libsNative/linux64
-        run: |
-          file libimgui-java64.so
-          readelf -d libimgui-java64.so | grep NEEDED || true
-          readelf -V libimgui-java64.so | grep GLIBC || true
-          nm -D libimgui-java64.so | grep Java_imgui_moulberry90_ | head
+          find / -name aarch64-linux-android21-clang++ 2>/dev/null | head -20
 
-      - uses: actions/upload-artifact@v4
-        with:
-          name: libimgui-java64-android-aarch64
-          path: imgui-binding/build/libsNative/linux64/libimgui-java64.so
+      - name: Stop here
+        run: exit 1
