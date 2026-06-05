@@ -54,3 +54,9 @@ jobs:
         with:
           name: libimgui-java64-android-aarch64
           path: imgui-binding/build/libsNative/linux64/libimgui-java64.so
+
+      - name: Copy ImGui headers
+        run: |
+          cp include/imgui/*.h imgui-binding/src/main/native/ || true
+          cp include/implot/*.h imgui-binding/src/main/native/ || true
+          cp include/imnodes/*.h imgui-binding/src/main/native/ || true
