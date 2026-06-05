@@ -13,17 +13,20 @@ jobs:
           submodules: recursive
 
       - name: Install deps
-        run: sudo apt-get update && sudo apt-get install -y ant openjdk-17-jdk
-
-      - name: Verify ImPlot
         run: |
-        ls -la include/implot
-        find include -name implot.h
+          sudo apt-get update
+          sudo apt-get install -y ant openjdk-17-jdk
 
       - name: Setup NDK
         uses: nttld/setup-ndk@v1
         with:
           ndk-version: r27c
+
+      - name: Copy ImGui headers
+        run: |
+          cp include/imgui/*.h imgui-binding/src/main/native/ || true
+          cp include/implot/*.h imgui-binding/src/main/native/ || true
+          cp include/imnodes/*.h imgui-binding/src/main/native/ || true
 
       - name: Create build dirs
         run: |
@@ -31,21 +34,15 @@ jobs:
           mkdir -p imgui-binding/build/obj/linux64
           mkdir -p imgui-binding/build/libsNative/linux64
 
-      - name: Patch build xml compiler
+      - name: Patch build xml
         run: |
           cd imgui-binding/build/jni
 
-          NDK=/opt/hostedtoolcache/ndk/r27c/x64/toolchains/llvm/prebuilt/linux-x86_64/bin
-
           sed -i 's#<property name="cCompiler" value="gcc"/>#<property name="cCompiler" value="aarch64-linux-android21-clang"/>#' build-linux64.xml
-
           sed -i 's#<property name="cppCompiler" value="g++"/>#<property name="cppCompiler" value="aarch64-linux-android21-clang++"/>#' build-linux64.xml
 
-
-      - name: Export NDK to PATH
-
+      - name: Export NDK
         run: |
-
           echo "/opt/hostedtoolcache/ndk/r27c/x64/toolchains/llvm/prebuilt/linux-x86_64/bin" >> $GITHUB_PATH
 
       - name: Build
@@ -61,9 +58,3 @@ jobs:
         with:
           name: libimgui-java64-android-aarch64
           path: imgui-binding/build/libsNative/linux64/libimgui-java64.so
-
-      - name: Copy ImGui headers
-        run: |
-          cp include/imgui/*.h imgui-binding/src/main/native/ || true
-          cp include/implot/*.h imgui-binding/src/main/native/ || true
-          cp include/imnodes/*.h imgui-binding/src/main/native/ || true
