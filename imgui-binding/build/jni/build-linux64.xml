@@ -118,6 +118,7 @@
 			<arg value="-Ijni-headers"/>
 			<arg value="-Ijni-headers/${jniPlatform}"/>
 			<arg value="-I../../src/main/native"/>
+                    <arg value="-I${basedir}/../../../include/imgui"/>
                     <arg value="-I../../../include/imgui"/>
                     <arg value="-I../../../include/implot"/>
                     <arg value="-I../../../include/imnodes"/>
@@ -141,6 +142,7 @@
 			<arg value="-Ijni-headers"/>
 			<arg value="-Ijni-headers/${jniPlatform}"/>
 			<arg value="-I../../src/main/native"/>
+                    <arg value="-I${basedir}/../../../include/imgui"/>
                     <arg value="-I../../../include/imgui"/>
                     <arg value="-I../../../include/implot"/>
                     <arg value="-I../../../include/imnodes"/>
