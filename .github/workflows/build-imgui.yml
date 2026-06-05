@@ -31,6 +31,16 @@ jobs:
 
           sed -i 's#<property name="compilerPrefix".*#<property name="compilerPrefix" value=""/>#' build-linux64.xml
 
+      - name: Create build dirs
+
+        run: |
+
+          mkdir -p imgui-binding/build/tmp/linux64
+
+          mkdir -p imgui-binding/build/obj/linux64
+
+          mkdir -p imgui-binding/build/libsNative/linux64
+
       - name: Build
         working-directory: imgui-binding/build/jni
         run: ant clean all
