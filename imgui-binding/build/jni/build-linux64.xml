@@ -101,6 +101,7 @@
 			<fileset refid="g++-files"/>
 			<fileset refid="gcc-files"/>
 		</copy>
+                <mkdir dir="${buildDir}"/>
 		<delete>
 			<fileset dir="${buildDir}">
 				<include name="*"/>
