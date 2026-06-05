@@ -35,5 +35,3 @@ jobs:
         run: |
           find . -type f -name build-linux64.xml
 
-      - name: Stop here
-        run: exit 1
