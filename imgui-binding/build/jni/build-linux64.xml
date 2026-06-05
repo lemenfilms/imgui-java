@@ -43,7 +43,7 @@
 	<!-- define linker and options -->
 	<property name="linker" value="${compilerPrefix}${cppCompiler}${compilerSuffix}"/>
 	<property name="linker-opts" value="-shared -nostdlib++ "/>
-	<property name="libraries" value="/root/android-ndk/android-ndk-r27c/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/aarch64-linux-android/libc++_static.a /root/android-ndk/android-ndk-r27c/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/aarch64-linux-android/libc++abi.a"/>
+	<property name="libraries" value="/opt/hostedtoolcache/ndk/r27c/x64/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/aarch64-linux-android/libc++_static.a /opt/hostedtoolcache/ndk/r27c/x64/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/aarch64-linux-android/libc++abi.a"/>
 
 	<!-- define stripper -->
 	<property name="stripper" value="${compilerPrefix}strip${compilerSuffix}"/>
