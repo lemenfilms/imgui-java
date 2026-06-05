@@ -118,6 +118,13 @@
 			<arg value="-Ijni-headers"/>
 			<arg value="-Ijni-headers/${jniPlatform}"/>
 			<arg value="-I../../src/main/native"/>
+                    <arg value="-I../../../include/imgui"/>
+                    <arg value="-I../../../include/implot"/>
+                    <arg value="-I../../../include/imnodes"/>
+                    <arg value="-I../../../include/imgui-node-editor"/>
+                    <arg value="-I../../../include/imgui-knobs"/>
+                    <arg value="-I../../../include/imguizmo"/>
+                    <arg value="-I../../../"/>
                     <arg value="-I../../../"/>
                     <arg value="-I../../../include/imgui"/>
 			
@@ -134,6 +141,13 @@
 			<arg value="-Ijni-headers"/>
 			<arg value="-Ijni-headers/${jniPlatform}"/>
 			<arg value="-I../../src/main/native"/>
+                    <arg value="-I../../../include/imgui"/>
+                    <arg value="-I../../../include/implot"/>
+                    <arg value="-I../../../include/imnodes"/>
+                    <arg value="-I../../../include/imgui-node-editor"/>
+                    <arg value="-I../../../include/imgui-knobs"/>
+                    <arg value="-I../../../include/imguizmo"/>
+                    <arg value="-I../../../"/>
                     <arg value="-I../../../"/>
                     <arg value="-I../../../include/imgui"/>
 			
