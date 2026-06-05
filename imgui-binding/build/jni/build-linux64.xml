@@ -117,7 +117,7 @@
 			<arg line="${g++-opts}"/>
 			<arg value="-Ijni-headers"/>
 			<arg value="-Ijni-headers/${jniPlatform}"/>
-			<arg value="-I."/>
+			<arg value="-I../../src/main/native"/>
 			
 			<srcfile/>
 			<arg value="-o"/>
@@ -131,7 +131,7 @@
 			<arg line="${gcc-opts}"/>
 			<arg value="-Ijni-headers"/>
 			<arg value="-Ijni-headers/${jniPlatform}"/>
-			<arg value="-I."/>
+			<arg value="-I../../src/main/native"/>
 			
 			<srcfile/>
 			<arg value="-o"/>
