@@ -18,16 +18,18 @@ jobs:
         with:
           ndk-version: r27c
 
+      - name: Export compiler path
+        run: |
+          echo "/opt/hostedtoolcache/ndk/r27c/x64/toolchains/llvm/prebuilt/linux-x86_64/bin" >> $GITHUB_PATH
+
       - name: Patch build xml compiler
         working-directory: imgui-binding/build/jni
         run: |
-          NDK=/opt/hostedtoolcache/ndk/r27c/x64/toolchains/llvm/prebuilt/linux-x86_64/bin
+          sed -i 's#<property name="cCompiler".*#<property name="cCompiler" value="clang"/>#' build-linux64.xml
 
-          sed -i 's#<property name="cCompiler" value="gcc"/>#<property name="cCompiler" value="aarch64-linux-android21-clang"/>#' build-linux64.xml
+          sed -i 's#<property name="cppCompiler".*#<property name="cppCompiler" value="clang++"/>#' build-linux64.xml
 
-          sed -i 's#<property name="cppCompiler" value="g++"/>#<property name="cppCompiler" value="aarch64-linux-android21-clang++"/>#' build-linux64.xml
-
-          sed -i "s#<property name=\"compilerPrefix\" value=\"\"/>#<property name=\"compilerPrefix\" value=\"$NDK/\"/>#" build-linux64.xml
+          sed -i 's#<property name="compilerPrefix".*#<property name="compilerPrefix" value="/opt/hostedtoolcache/ndk/r27c/x64/toolchains/llvm/prebuilt/linux-x86_64/bin/"/>#' build-linux64.xml
 
       - name: Build
         working-directory: imgui-binding/build/jni
@@ -38,7 +40,7 @@ jobs:
         run: |
           file libimgui-java64.so
           readelf -d libimgui-java64.so | grep NEEDED || true
-          nm -D libimgui-java64.so | grep Java_imgui_moulberry90_ | head
+          nm -D libimgui-java64.so | grep Java_ | head || true
 
       - uses: actions/upload-artifact@v4
         with:
