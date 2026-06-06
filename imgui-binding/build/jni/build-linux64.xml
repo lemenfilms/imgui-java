@@ -125,6 +125,7 @@
 			<arg line="${g++-opts}"/>
 			<arg value="-Ijni-headers"/>
 			<arg value="-Ijni-headers/${jniPlatform}"/>
+<arg value="-I../../build/generated/sources/headers/java/main"/>
 			<arg value="-I../../src/main/native"/>
                     <arg value="-I../../../include/implot"/>
                     <arg value="-I../../../include/imnodes"/>
@@ -198,6 +199,7 @@
 			<arg line="${gcc-opts}"/>
 			<arg value="-Ijni-headers"/>
 			<arg value="-Ijni-headers/${jniPlatform}"/>
+<arg value="-I../../build/generated/sources/headers/java/main"/>
 			<arg value="-I../../src/main/native"/>
                     <arg value="-I../../../include/implot"/>
                     <arg value="-I../../../include/imnodes"/>
