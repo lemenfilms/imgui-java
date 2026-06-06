@@ -1,0 +1,342 @@
+build	Debug tree	2026-06-05T13:33:18.1214755Z [36;1mecho "DIRECTORIES:"[0m
+build	Debug tree	2026-06-05T13:33:18.1215039Z [36;1mfind . -maxdepth 5 -type d | sort[0m
+build	Debug tree	2026-06-05T13:33:18.1247911Z shell: /usr/bin/bash -e {0}
+build	Debug tree	2026-06-05T13:33:18.1248202Z ##[endgroup]
+build	Debug tree	2026-06-05T13:33:18.1391400Z PWD:
+build	Debug tree	2026-06-05T13:33:18.1391787Z /home/runner/work/imgui-java/imgui-java
+build	Debug tree	2026-06-05T13:33:18.1392108Z 
+build	Debug tree	2026-06-05T13:33:18.1392237Z ROOT:
+build	Debug tree	2026-06-05T13:33:18.1406975Z total 160
+build	Debug tree	2026-06-05T13:33:18.1407251Z drwxr-xr-x 18 runner runner  4096 Jun  5 13:33 .
+build	Debug tree	2026-06-05T13:33:18.1407614Z drwxr-xr-x  3 runner runner  4096 Jun  5 13:33 ..
+build	Debug tree	2026-06-05T13:33:18.1407958Z drwxr-xr-x  4 runner runner  4096 Jun  5 13:33 .claude
+build	Debug tree	2026-06-05T13:33:18.1408328Z -rw-r--r--  1 runner runner   172 Jun  5 13:33 .editorconfig
+build	Debug tree	2026-06-05T13:33:18.1408785Z drwxr-xr-x  8 runner runner  4096 Jun  5 13:33 .git
+build	Debug tree	2026-06-05T13:33:18.1409312Z drwxr-xr-x  4 runner runner  4096 Jun  5 13:33 .github
+build	Debug tree	2026-06-05T13:33:18.1409663Z -rw-r--r--  1 runner runner   381 Jun  5 13:33 .gitignore
+build	Debug tree	2026-06-05T13:33:18.1410463Z -rw-r--r--  1 runner runner   986 Jun  5 13:33 .gitmodules
+build	Debug tree	2026-06-05T13:33:18.1411006Z -rw-r--r--  1 runner runner 13487 Jun  5 13:33 AGENTS.md
+build	Debug tree	2026-06-05T13:33:18.1411535Z -rw-r--r--  1 runner runner  1550 Jun  5 13:33 CLAUDE.md
+build	Debug tree	2026-06-05T13:33:18.1412045Z -rw-r--r--  1 runner runner  1088 Jun  5 13:33 LICENSE
+build	Debug tree	2026-06-05T13:33:18.1412725Z -rw-r--r--  1 runner runner 19354 Jun  5 13:33 README.md
+build	Debug tree	2026-06-05T13:33:18.1413239Z drwxr-xr-x  2 runner runner  4096 Jun  5 13:33 bin
+build	Debug tree	2026-06-05T13:33:18.1413820Z -rw-r--r--  1 runner runner  3376 Jun  5 13:33 build.gradle
+build	Debug tree	2026-06-05T13:33:18.1414380Z drwxr-xr-x  4 runner runner  4096 Jun  5 13:33 buildSrc
+build	Debug tree	2026-06-05T13:33:18.1414916Z drwxr-xr-x  3 runner runner  4096 Jun  5 13:33 config
+build	Debug tree	2026-06-05T13:33:18.1415447Z drwxr-xr-x  2 runner runner  4096 Jun  5 13:33 docs
+build	Debug tree	2026-06-05T13:33:18.1416109Z drwxr-xr-x  3 runner runner  4096 Jun  5 13:33 example
+build	Debug tree	2026-06-05T13:33:18.1416636Z drwxr-xr-x  3 runner runner  4096 Jun  5 13:33 gradle
+build	Debug tree	2026-06-05T13:33:18.1417219Z -rw-r--r--  1 runner runner    82 Jun  5 13:33 gradle.properties
+build	Debug tree	2026-06-05T13:33:18.1417809Z -rwxr-xr-x  1 runner runner  8654 Jun  5 13:33 gradlew
+build	Debug tree	2026-06-05T13:33:18.1418349Z -rw-r--r--  1 runner runner  2846 Jun  5 13:33 gradlew.bat
+build	Debug tree	2026-06-05T13:33:18.1418925Z drwxr-xr-x  3 runner runner  4096 Jun  5 13:33 imgui-app
+build	Debug tree	2026-06-05T13:33:18.1419525Z drwxr-xr-x  3 runner runner  4096 Jun  5 13:33 imgui-binding
+build	Debug tree	2026-06-05T13:33:18.1420167Z drwxr-xr-x  2 runner runner  4096 Jun  5 13:33 imgui-binding-natives
+build	Debug tree	2026-06-05T13:33:18.1420837Z drwxr-xr-x  3 runner runner  4096 Jun  5 13:33 imgui-lwjgl3
+build	Debug tree	2026-06-05T13:33:18.1421485Z drwxr-xr-x 11 runner runner  4096 Jun  5 13:33 include
+build	Debug tree	2026-06-05T13:33:18.1422045Z drwxr-xr-x  2 runner runner  4096 Jun  5 13:33 patches
+build	Debug tree	2026-06-05T13:33:18.1422834Z -rw-r--r--  1 runner runner  2781 Jun  5 13:33 publish.gradle
+build	Debug tree	2026-06-05T13:33:18.1423486Z -rw-r--r--  1 runner runner   243 Jun  5 13:33 settings.gradle.kts
+build	Debug tree	2026-06-05T13:33:18.1424076Z drwxr-xr-x  2 runner runner  4096 Jun  5 13:33 vendor
+build	Debug tree	2026-06-05T13:33:18.1424426Z 
+build	Debug tree	2026-06-05T13:33:18.1424559Z DIRECTORIES:
+build	Debug tree	2026-06-05T13:33:18.1556127Z .
+build	Debug tree	2026-06-05T13:33:18.1556463Z ./.claude
+build	Debug tree	2026-06-05T13:33:18.1556775Z ./.claude/docs
+build	Debug tree	2026-06-05T13:33:18.1557111Z ./.claude/rules
+build	Debug tree	2026-06-05T13:33:18.1557570Z ./.git
+build	Debug tree	2026-06-05T13:33:18.1557882Z ./.git/hooks
+build	Debug tree	2026-06-05T13:33:18.1558190Z ./.git/info
+build	Debug tree	2026-06-05T13:33:18.1558479Z ./.git/logs
+build	Debug tree	2026-06-05T13:33:18.1558792Z ./.git/logs/refs
+build	Debug tree	2026-06-05T13:33:18.1559116Z ./.git/logs/refs/heads
+build	Debug tree	2026-06-05T13:33:18.1559473Z ./.git/logs/refs/remotes
+build	Debug tree	2026-06-05T13:33:18.1559849Z ./.git/logs/refs/remotes/origin
+build	Debug tree	2026-06-05T13:33:18.1560233Z ./.git/modules
+build	Debug tree	2026-06-05T13:33:18.1560568Z ./.git/modules/include
+build	Debug tree	2026-06-05T13:33:18.1561255Z ./.git/modules/include/ImGuiColorTextEdit
+build	Debug tree	2026-06-05T13:33:18.1561775Z ./.git/modules/include/ImGuiColorTextEdit/hooks
+build	Debug tree	2026-06-05T13:33:18.1562290Z ./.git/modules/include/ImGuiColorTextEdit/info
+build	Debug tree	2026-06-05T13:33:18.1562825Z ./.git/modules/include/ImGuiColorTextEdit/logs
+build	Debug tree	2026-06-05T13:33:18.1563154Z ./.git/modules/include/ImGuiColorTextEdit/objects
+build	Debug tree	2026-06-05T13:33:18.1563482Z ./.git/modules/include/ImGuiColorTextEdit/refs
+build	Debug tree	2026-06-05T13:33:18.1563777Z ./.git/modules/include/ImGuiFileDialog
+build	Debug tree	2026-06-05T13:33:18.1564383Z ./.git/modules/include/ImGuiFileDialog/hooks
+build	Debug tree	2026-06-05T13:33:18.1564885Z ./.git/modules/include/ImGuiFileDialog/info
+build	Debug tree	2026-06-05T13:33:18.1565350Z ./.git/modules/include/ImGuiFileDialog/logs
+build	Debug tree	2026-06-05T13:33:18.1565844Z ./.git/modules/include/ImGuiFileDialog/objects
+build	Debug tree	2026-06-05T13:33:18.1566330Z ./.git/modules/include/ImGuiFileDialog/refs
+build	Debug tree	2026-06-05T13:33:18.1566785Z ./.git/modules/include/imgui
+build	Debug tree	2026-06-05T13:33:18.1567194Z ./.git/modules/include/imgui-knobs
+build	Debug tree	2026-06-05T13:33:18.1567639Z ./.git/modules/include/imgui-knobs/hooks
+build	Debug tree	2026-06-05T13:33:18.1568103Z ./.git/modules/include/imgui-knobs/info
+build	Debug tree	2026-06-05T13:33:18.1568542Z ./.git/modules/include/imgui-knobs/logs
+build	Debug tree	2026-06-05T13:33:18.1568957Z ./.git/modules/include/imgui-knobs/objects
+build	Debug tree	2026-06-05T13:33:18.1569434Z ./.git/modules/include/imgui-knobs/refs
+build	Debug tree	2026-06-05T13:33:18.1569720Z ./.git/modules/include/imgui-node-editor
+build	Debug tree	2026-06-05T13:33:18.1570036Z ./.git/modules/include/imgui-node-editor/hooks
+build	Debug tree	2026-06-05T13:33:18.1570369Z ./.git/modules/include/imgui-node-editor/info
+build	Debug tree	2026-06-05T13:33:18.1570689Z ./.git/modules/include/imgui-node-editor/logs
+build	Debug tree	2026-06-05T13:33:18.1571007Z ./.git/modules/include/imgui-node-editor/objects
+build	Debug tree	2026-06-05T13:33:18.1571330Z ./.git/modules/include/imgui-node-editor/refs
+build	Debug tree	2026-06-05T13:33:18.1571624Z ./.git/modules/include/imgui/hooks
+build	Debug tree	2026-06-05T13:33:18.1571900Z ./.git/modules/include/imgui/info
+build	Debug tree	2026-06-05T13:33:18.1572169Z ./.git/modules/include/imgui/logs
+build	Debug tree	2026-06-05T13:33:18.1572632Z ./.git/modules/include/imgui/objects
+build	Debug tree	2026-06-05T13:33:18.1573004Z ./.git/modules/include/imgui/refs
+build	Debug tree	2026-06-05T13:33:18.1573286Z ./.git/modules/include/imgui_club
+build	Debug tree	2026-06-05T13:33:18.1573558Z ./.git/modules/include/imgui_club/hooks
+build	Debug tree	2026-06-05T13:33:18.1573849Z ./.git/modules/include/imgui_club/info
+build	Debug tree	2026-06-05T13:33:18.1574140Z ./.git/modules/include/imgui_club/logs
+build	Debug tree	2026-06-05T13:33:18.1574423Z ./.git/modules/include/imgui_club/objects
+build	Debug tree	2026-06-05T13:33:18.1574716Z ./.git/modules/include/imgui_club/refs
+build	Debug tree	2026-06-05T13:33:18.1574989Z ./.git/modules/include/imguizmo
+build	Debug tree	2026-06-05T13:33:18.1575258Z ./.git/modules/include/imguizmo/hooks
+build	Debug tree	2026-06-05T13:33:18.1575538Z ./.git/modules/include/imguizmo/info
+build	Debug tree	2026-06-05T13:33:18.1575812Z ./.git/modules/include/imguizmo/logs
+build	Debug tree	2026-06-05T13:33:18.1576089Z ./.git/modules/include/imguizmo/objects
+build	Debug tree	2026-06-05T13:33:18.1576367Z ./.git/modules/include/imguizmo/refs
+build	Debug tree	2026-06-05T13:33:18.1576634Z ./.git/modules/include/imnodes
+build	Debug tree	2026-06-05T13:33:18.1576895Z ./.git/modules/include/imnodes/hooks
+build	Debug tree	2026-06-05T13:33:18.1577171Z ./.git/modules/include/imnodes/info
+build	Debug tree	2026-06-05T13:33:18.1577444Z ./.git/modules/include/imnodes/logs
+build	Debug tree	2026-06-05T13:33:18.1577711Z ./.git/modules/include/imnodes/modules
+build	Debug tree	2026-06-05T13:33:18.1577988Z ./.git/modules/include/imnodes/objects
+build	Debug tree	2026-06-05T13:33:18.1578263Z ./.git/modules/include/imnodes/refs
+build	Debug tree	2026-06-05T13:33:18.1578527Z ./.git/modules/include/implot
+build	Debug tree	2026-06-05T13:33:18.1578802Z ./.git/modules/include/implot/hooks
+build	Debug tree	2026-06-05T13:33:18.1579073Z ./.git/modules/include/implot/info
+build	Debug tree	2026-06-05T13:33:18.1579347Z ./.git/modules/include/implot/logs
+build	Debug tree	2026-06-05T13:33:18.1579614Z ./.git/modules/include/implot/objects
+build	Debug tree	2026-06-05T13:33:18.1579895Z ./.git/modules/include/implot/refs
+build	Debug tree	2026-06-05T13:33:18.1580146Z ./.git/objects
+build	Debug tree	2026-06-05T13:33:18.1580359Z ./.git/objects/info
+build	Debug tree	2026-06-05T13:33:18.1580581Z ./.git/objects/pack
+build	Debug tree	2026-06-05T13:33:18.1580791Z ./.git/refs
+build	Debug tree	2026-06-05T13:33:18.1580994Z ./.git/refs/heads
+build	Debug tree	2026-06-05T13:33:18.1581211Z ./.git/refs/remotes
+build	Debug tree	2026-06-05T13:33:18.1581616Z ./.git/refs/remotes/origin
+build	Debug tree	2026-06-05T13:33:18.1581864Z ./.git/refs/tags
+build	Debug tree	2026-06-05T13:33:18.1582073Z ./.github
+build	Debug tree	2026-06-05T13:33:18.1582284Z ./.github/ISSUE_TEMPLATE
+build	Debug tree	2026-06-05T13:33:18.1582695Z ./.github/workflows
+build	Debug tree	2026-06-05T13:33:18.1582905Z ./bin
+build	Debug tree	2026-06-05T13:33:18.1583100Z ./buildSrc
+build	Debug tree	2026-06-05T13:33:18.1583308Z ./buildSrc/scripts
+build	Debug tree	2026-06-05T13:33:18.1583537Z ./buildSrc/src
+build	Debug tree	2026-06-05T13:33:18.1583753Z ./buildSrc/src/main
+build	Debug tree	2026-06-05T13:33:18.1583979Z ./buildSrc/src/main/groovy
+build	Debug tree	2026-06-05T13:33:18.1584231Z ./buildSrc/src/main/groovy/tool
+build	Debug tree	2026-06-05T13:33:18.1584489Z ./buildSrc/src/main/kotlin
+build	Debug tree	2026-06-05T13:33:18.1584731Z ./buildSrc/src/main/kotlin/tool
+build	Debug tree	2026-06-05T13:33:18.1584987Z ./buildSrc/src/main/resources
+build	Debug tree	2026-06-05T13:33:18.1585262Z ./buildSrc/src/main/resources/generator
+build	Debug tree	2026-06-05T13:33:18.1585540Z ./config
+build	Debug tree	2026-06-05T13:33:18.1585740Z ./config/checkstyle
+build	Debug tree	2026-06-05T13:33:18.1585950Z ./docs
+build	Debug tree	2026-06-05T13:33:18.1586144Z ./example
+build	Debug tree	2026-06-05T13:33:18.1586343Z ./example/src
+build	Debug tree	2026-06-05T13:33:18.1586577Z ./example/src/main
+build	Debug tree	2026-06-05T13:33:18.1586802Z ./example/src/main/java
+build	Debug tree	2026-06-05T13:33:18.1587045Z ./example/src/main/resources
+build	Debug tree	2026-06-05T13:33:18.1587288Z ./gradle
+build	Debug tree	2026-06-05T13:33:18.1587483Z ./gradle/wrapper
+build	Debug tree	2026-06-05T13:33:18.1587698Z ./imgui-app
+build	Debug tree	2026-06-05T13:33:18.1588050Z ./imgui-app/src
+build	Debug tree	2026-06-05T13:33:18.1588271Z ./imgui-app/src/main
+build	Debug tree	2026-06-05T13:33:18.1588507Z ./imgui-app/src/main/java
+build	Debug tree	2026-06-05T13:33:18.1588764Z ./imgui-app/src/main/java/imgui
+build	Debug tree	2026-06-05T13:33:18.1589033Z ./imgui-binding
+build	Debug tree	2026-06-05T13:33:18.1589255Z ./imgui-binding-natives
+build	Debug tree	2026-06-05T13:33:18.1589494Z ./imgui-binding/src
+build	Debug tree	2026-06-05T13:33:18.1589723Z ./imgui-binding/src/generated
+build	Debug tree	2026-06-05T13:33:18.1589989Z ./imgui-binding/src/generated/java
+build	Debug tree	2026-06-05T13:33:18.1590278Z ./imgui-binding/src/generated/java/imgui
+build	Debug tree	2026-06-05T13:33:18.1590574Z ./imgui-binding/src/main
+build	Debug tree	2026-06-05T13:33:18.1590819Z ./imgui-binding/src/main/java
+build	Debug tree	2026-06-05T13:33:18.1591081Z ./imgui-binding/src/main/java/imgui
+build	Debug tree	2026-06-05T13:33:18.1591355Z ./imgui-binding/src/main/native
+build	Debug tree	2026-06-05T13:33:18.1591622Z ./imgui-binding/src/main/resources
+build	Debug tree	2026-06-05T13:33:18.1591896Z ./imgui-binding/src/main/resources/imgui
+build	Debug tree	2026-06-05T13:33:18.1592173Z ./imgui-binding/src/test
+build	Debug tree	2026-06-05T13:33:18.1592412Z ./imgui-binding/src/test/java
+build	Debug tree	2026-06-05T13:33:18.1592871Z ./imgui-binding/src/test/java/imgui
+build	Debug tree	2026-06-05T13:33:18.1593156Z ./imgui-lwjgl3
+build	Debug tree	2026-06-05T13:33:18.1593375Z ./imgui-lwjgl3/src
+build	Debug tree	2026-06-05T13:33:18.1593602Z ./imgui-lwjgl3/src/main
+build	Debug tree	2026-06-05T13:33:18.1593840Z ./imgui-lwjgl3/src/main/java
+build	Debug tree	2026-06-05T13:33:18.1594093Z ./imgui-lwjgl3/src/main/java/imgui
+build	Debug tree	2026-06-05T13:33:18.1594362Z ./imgui-lwjgl3/src/main/resources
+build	Debug tree	2026-06-05T13:33:18.1594635Z ./imgui-lwjgl3/src/main/resources/imgui
+build	Debug tree	2026-06-05T13:33:18.1594904Z ./include
+build	Debug tree	2026-06-05T13:33:18.1595114Z ./include/ImGuiColorTextEdit
+build	Debug tree	2026-06-05T13:33:18.1595376Z ./include/ImGuiColorTextEdit/.github
+build	Debug tree	2026-06-05T13:33:18.1595685Z ./include/ImGuiColorTextEdit/.github/workflows
+build	Debug tree	2026-06-05T13:33:18.1595997Z ./include/ImGuiColorTextEdit/docs
+build	Debug tree	2026-06-05T13:33:18.1596277Z ./include/ImGuiColorTextEdit/example
+build	Debug tree	2026-06-05T13:33:18.1596565Z ./include/ImGuiColorTextEdit/example/deps
+build	Debug tree	2026-06-05T13:33:18.1596888Z ./include/ImGuiColorTextEdit/example/deps/imgui
+build	Debug tree	2026-06-05T13:33:18.1597263Z ./include/ImGuiColorTextEdit/example/deps/imguifiledialog
+build	Debug tree	2026-06-05T13:33:18.1597643Z ./include/ImGuiColorTextEdit/example/deps/sdl
+build	Debug tree	2026-06-05T13:33:18.1597945Z ./include/ImGuiFileDialog
+build	Debug tree	2026-06-05T13:33:18.1598196Z ./include/ImGuiFileDialog/dirent
+build	Debug tree	2026-06-05T13:33:18.1598463Z ./include/ImGuiFileDialog/stb
+build	Debug tree	2026-06-05T13:33:18.1598709Z ./include/imgui
+build	Debug tree	2026-06-05T13:33:18.1598924Z ./include/imgui-knobs
+build	Debug tree	2026-06-05T13:33:18.1599160Z ./include/imgui-knobs/example
+build	Debug tree	2026-06-05T13:33:18.1599416Z ./include/imgui-node-editor
+build	Debug tree	2026-06-05T13:33:18.1599679Z ./include/imgui-node-editor/.github
+build	Debug tree	2026-06-05T13:33:18.1599971Z ./include/imgui-node-editor/.github/workflows
+build	Debug tree	2026-06-05T13:33:18.1600279Z ./include/imgui-node-editor/docs
+build	Debug tree	2026-06-05T13:33:18.1600546Z ./include/imgui-node-editor/examples
+build	Debug tree	2026-06-05T13:33:18.1601010Z ./include/imgui-node-editor/examples/application
+build	Debug tree	2026-06-05T13:33:18.1601377Z ./include/imgui-node-editor/examples/application/include
+build	Debug tree	2026-06-05T13:33:18.1601760Z ./include/imgui-node-editor/examples/application/source
+build	Debug tree	2026-06-05T13:33:18.1602146Z ./include/imgui-node-editor/examples/application/support
+build	Debug tree	2026-06-05T13:33:18.1602776Z ./include/imgui-node-editor/examples/basic-interaction-example
+build	Debug tree	2026-06-05T13:33:18.1603191Z ./include/imgui-node-editor/examples/blueprints-example
+build	Debug tree	2026-06-05T13:33:18.1603589Z ./include/imgui-node-editor/examples/blueprints-example/data
+build	Debug tree	2026-06-05T13:33:18.1604017Z ./include/imgui-node-editor/examples/blueprints-example/utilities
+build	Debug tree	2026-06-05T13:33:18.1604421Z ./include/imgui-node-editor/examples/canvas-example
+build	Debug tree	2026-06-05T13:33:18.1604761Z ./include/imgui-node-editor/examples/data
+build	Debug tree	2026-06-05T13:33:18.1605087Z ./include/imgui-node-editor/examples/simple-example
+build	Debug tree	2026-06-05T13:33:18.1605440Z ./include/imgui-node-editor/examples/widgets-example
+build	Debug tree	2026-06-05T13:33:18.1605773Z ./include/imgui-node-editor/external
+build	Debug tree	2026-06-05T13:33:18.1606067Z ./include/imgui-node-editor/external/DXSDK
+build	Debug tree	2026-06-05T13:33:18.1606395Z ./include/imgui-node-editor/external/DXSDK/include
+build	Debug tree	2026-06-05T13:33:18.1606736Z ./include/imgui-node-editor/external/DXSDK/lib
+build	Debug tree	2026-06-05T13:33:18.1607207Z ./include/imgui-node-editor/external/DXSDK/src
+build	Debug tree	2026-06-05T13:33:18.1607536Z ./include/imgui-node-editor/external/ScopeGuard
+build	Debug tree	2026-06-05T13:33:18.1607857Z ./include/imgui-node-editor/external/imgui
+build	Debug tree	2026-06-05T13:33:18.1608170Z ./include/imgui-node-editor/external/stb_image
+build	Debug tree	2026-06-05T13:33:18.1608490Z ./include/imgui-node-editor/misc
+build	Debug tree	2026-06-05T13:33:18.1608785Z ./include/imgui-node-editor/misc/cmake-modules
+build	Debug tree	2026-06-05T13:33:18.1609083Z ./include/imgui/.github
+build	Debug tree	2026-06-05T13:33:18.1609335Z ./include/imgui/.github/ISSUE_TEMPLATE
+build	Debug tree	2026-06-05T13:33:18.1609621Z ./include/imgui/.github/workflows
+build	Debug tree	2026-06-05T13:33:18.1609888Z ./include/imgui/backends
+build	Debug tree	2026-06-05T13:33:18.1610141Z ./include/imgui/backends/sdlgpu3
+build	Debug tree	2026-06-05T13:33:18.1610413Z ./include/imgui/backends/vulkan
+build	Debug tree	2026-06-05T13:33:18.1610665Z ./include/imgui/docs
+build	Debug tree	2026-06-05T13:33:18.1610898Z ./include/imgui/examples
+build	Debug tree	2026-06-05T13:33:18.1611160Z ./include/imgui/examples/example_allegro5
+build	Debug tree	2026-06-05T13:33:18.1611481Z ./include/imgui/examples/example_android_opengl3
+build	Debug tree	2026-06-05T13:33:18.1611847Z ./include/imgui/examples/example_android_opengl3/android
+build	Debug tree	2026-06-05T13:33:18.1612212Z ./include/imgui/examples/example_apple_metal
+build	Debug tree	2026-06-05T13:33:18.1612811Z ./include/imgui/examples/example_apple_metal/example_apple_metal.xcodeproj
+build	Debug tree	2026-06-05T13:33:18.1613251Z ./include/imgui/examples/example_apple_metal/iOS
+build	Debug tree	2026-06-05T13:33:18.1613595Z ./include/imgui/examples/example_apple_metal/macOS
+build	Debug tree	2026-06-05T13:33:18.1613932Z ./include/imgui/examples/example_apple_opengl2
+build	Debug tree	2026-06-05T13:33:18.1614355Z ./include/imgui/examples/example_apple_opengl2/example_apple_opengl2.xcodeproj
+build	Debug tree	2026-06-05T13:33:18.1614790Z ./include/imgui/examples/example_glfw_metal
+build	Debug tree	2026-06-05T13:33:18.1615125Z ./include/imgui/examples/example_glfw_opengl2
+build	Debug tree	2026-06-05T13:33:18.1615439Z ./include/imgui/examples/example_glfw_opengl3
+build	Debug tree	2026-06-05T13:33:18.1615749Z ./include/imgui/examples/example_glfw_vulkan
+build	Debug tree	2026-06-05T13:33:18.1616053Z ./include/imgui/examples/example_glfw_wgpu
+build	Debug tree	2026-06-05T13:33:18.1616367Z ./include/imgui/examples/example_glut_opengl2
+build	Debug tree	2026-06-05T13:33:18.1616686Z ./include/imgui/examples/example_null
+build	Debug tree	2026-06-05T13:33:18.1617002Z ./include/imgui/examples/example_sdl2_directx11
+build	Debug tree	2026-06-05T13:33:18.1617324Z ./include/imgui/examples/example_sdl2_metal
+build	Debug tree	2026-06-05T13:33:18.1617633Z ./include/imgui/examples/example_sdl2_opengl2
+build	Debug tree	2026-06-05T13:33:18.1617943Z ./include/imgui/examples/example_sdl2_opengl3
+build	Debug tree	2026-06-05T13:33:18.1618262Z ./include/imgui/examples/example_sdl2_sdlrenderer2
+build	Debug tree	2026-06-05T13:33:18.1618589Z ./include/imgui/examples/example_sdl2_vulkan
+build	Debug tree	2026-06-05T13:33:18.1618891Z ./include/imgui/examples/example_sdl2_wgpu
+build	Debug tree	2026-06-05T13:33:18.1619196Z ./include/imgui/examples/example_sdl3_directx11
+build	Debug tree	2026-06-05T13:33:18.1619657Z ./include/imgui/examples/example_sdl3_metal
+build	Debug tree	2026-06-05T13:33:18.1619964Z ./include/imgui/examples/example_sdl3_opengl3
+build	Debug tree	2026-06-05T13:33:18.1620269Z ./include/imgui/examples/example_sdl3_sdlgpu3
+build	Debug tree	2026-06-05T13:33:18.1620583Z ./include/imgui/examples/example_sdl3_sdlrenderer3
+build	Debug tree	2026-06-05T13:33:18.1620908Z ./include/imgui/examples/example_sdl3_vulkan
+build	Debug tree	2026-06-05T13:33:18.1621206Z ./include/imgui/examples/example_sdl3_wgpu
+build	Debug tree	2026-06-05T13:33:18.1621527Z ./include/imgui/examples/example_win32_directx10
+build	Debug tree	2026-06-05T13:33:18.1621856Z ./include/imgui/examples/example_win32_directx11
+build	Debug tree	2026-06-05T13:33:18.1622175Z ./include/imgui/examples/example_win32_directx12
+build	Debug tree	2026-06-05T13:33:18.1622679Z ./include/imgui/examples/example_win32_directx9
+build	Debug tree	2026-06-05T13:33:18.1623009Z ./include/imgui/examples/example_win32_opengl3
+build	Debug tree	2026-06-05T13:33:18.1623323Z ./include/imgui/examples/example_win32_vulkan
+build	Debug tree	2026-06-05T13:33:18.1623620Z ./include/imgui/examples/libs
+build	Debug tree	2026-06-05T13:33:18.1623894Z ./include/imgui/examples/libs/emscripten
+build	Debug tree	2026-06-05T13:33:18.1624192Z ./include/imgui/examples/libs/glfw
+build	Debug tree	2026-06-05T13:33:18.1624480Z ./include/imgui/examples/libs/usynergy
+build	Debug tree	2026-06-05T13:33:18.1624748Z ./include/imgui/misc
+build	Debug tree	2026-06-05T13:33:18.1624979Z ./include/imgui/misc/cpp
+build	Debug tree	2026-06-05T13:33:18.1625384Z ./include/imgui/misc/debuggers
+build	Debug tree	2026-06-05T13:33:18.1625646Z ./include/imgui/misc/fonts
+build	Debug tree	2026-06-05T13:33:18.1625894Z ./include/imgui/misc/freetype
+build	Debug tree	2026-06-05T13:33:18.1626151Z ./include/imgui/misc/single_file
+build	Debug tree	2026-06-05T13:33:18.1626406Z ./include/imgui_club
+build	Debug tree	2026-06-05T13:33:18.1626642Z ./include/imgui_club/imgui_memory_editor
+build	Debug tree	2026-06-05T13:33:18.1626973Z ./include/imgui_club/imgui_multicontext_compositor
+build	Debug tree	2026-06-05T13:33:18.1627306Z ./include/imgui_club/imgui_threaded_rendering
+build	Debug tree	2026-06-05T13:33:18.1627589Z ./include/imguizmo
+build	Debug tree	2026-06-05T13:33:18.1627814Z ./include/imguizmo/.github
+build	Debug tree	2026-06-05T13:33:18.1628060Z ./include/imguizmo/Images
+build	Debug tree	2026-06-05T13:33:18.1628299Z ./include/imguizmo/bin
+build	Debug tree	2026-06-05T13:33:18.1628537Z ./include/imguizmo/example
+build	Debug tree	2026-06-05T13:33:18.1628801Z ./include/imguizmo/vcpkg-example
+build	Debug tree	2026-06-05T13:33:18.1629055Z ./include/imnodes
+build	Debug tree	2026-06-05T13:33:18.1629273Z ./include/imnodes/.github
+build	Debug tree	2026-06-05T13:33:18.1629520Z ./include/imnodes/.github/workflows
+build	Debug tree	2026-06-05T13:33:18.1629792Z ./include/imnodes/example
+build	Debug tree	2026-06-05T13:33:18.1630045Z ./include/imnodes/img
+build	Debug tree	2026-06-05T13:33:18.1630279Z ./include/imnodes/vcpkg
+build	Debug tree	2026-06-05T13:33:18.1630527Z ./include/imnodes/vcpkg/.github
+build	Debug tree	2026-06-05T13:33:18.1630811Z ./include/imnodes/vcpkg/.github/ISSUE_TEMPLATE
+build	Debug tree	2026-06-05T13:33:18.1631123Z ./include/imnodes/vcpkg/.github/workflows
+build	Debug tree	2026-06-05T13:33:18.1631421Z ./include/imnodes/vcpkg/docs
+build	Debug tree	2026-06-05T13:33:18.1631682Z ./include/imnodes/vcpkg/docs/about
+build	Debug tree	2026-06-05T13:33:18.1631957Z ./include/imnodes/vcpkg/docs/users
+build	Debug tree	2026-06-05T13:33:18.1632223Z ./include/imnodes/vcpkg/ports
+build	Debug tree	2026-06-05T13:33:18.1632693Z ./include/imnodes/vcpkg/ports/3fd
+build	Debug tree	2026-06-05T13:33:18.1632976Z ./include/imnodes/vcpkg/ports/7zip
+build	Debug tree	2026-06-05T13:33:18.1633254Z ./include/imnodes/vcpkg/ports/ableton
+build	Debug tree	2026-06-05T13:33:18.1633565Z ./include/imnodes/vcpkg/ports/ableton-link
+build	Debug tree	2026-06-05T13:33:18.1633861Z ./include/imnodes/vcpkg/ports/abseil
+build	Debug tree	2026-06-05T13:33:18.1634143Z ./include/imnodes/vcpkg/ports/absent
+build	Debug tree	2026-06-05T13:33:18.1634418Z ./include/imnodes/vcpkg/ports/ace
+build	Debug tree	2026-06-05T13:33:18.1634692Z ./include/imnodes/vcpkg/ports/acl
+build	Debug tree	2026-06-05T13:33:18.1634981Z ./include/imnodes/vcpkg/ports/activemq-cpp
+build	Debug tree	2026-06-05T13:33:18.1635278Z ./include/imnodes/vcpkg/ports/ada-url
+build	Debug tree	2026-06-05T13:33:18.1635551Z ./include/imnodes/vcpkg/ports/ade
+build	Debug tree	2026-06-05T13:33:18.1635812Z ./include/imnodes/vcpkg/ports/adios2
+build	Debug tree	2026-06-05T13:33:18.1636100Z ./include/imnodes/vcpkg/ports/advobfuscator
+build	Debug tree	2026-06-05T13:33:18.1636402Z ./include/imnodes/vcpkg/ports/air-ctl
+build	Debug tree	2026-06-05T13:33:18.1636687Z ./include/imnodes/vcpkg/ports/aixlog
+build	Debug tree	2026-06-05T13:33:18.1636978Z ./include/imnodes/vcpkg/ports/aklomp-base64
+build	Debug tree	2026-06-05T13:33:18.1637272Z ./include/imnodes/vcpkg/ports/alac
+build	Debug tree	2026-06-05T13:33:18.1637554Z ./include/imnodes/vcpkg/ports/alac-decoder
+build	Debug tree	2026-06-05T13:33:18.1638092Z ./include/imnodes/vcpkg/ports/alembic
+build	Debug tree	2026-06-05T13:33:18.1638392Z ./include/imnodes/vcpkg/ports/aliyun-oss-c-sdk
+build	Debug tree	2026-06-05T13:33:18.1638708Z ./include/imnodes/vcpkg/ports/allegro5
+build	Debug tree	2026-06-05T13:33:18.1638991Z ./include/imnodes/vcpkg/ports/alpaca
+build	Debug tree	2026-06-05T13:33:18.1639271Z ./include/imnodes/vcpkg/ports/alpaka
+build	Debug tree	2026-06-05T13:33:18.1639543Z ./include/imnodes/vcpkg/ports/alsa
+build	Debug tree	2026-06-05T13:33:18.1639821Z ./include/imnodes/vcpkg/ports/amd-adl-sdk
+build	Debug tree	2026-06-05T13:33:18.1640116Z ./include/imnodes/vcpkg/ports/amd-amf
+build	Debug tree	2026-06-05T13:33:18.1640393Z ./include/imnodes/vcpkg/ports/ampl-asl
+build	Debug tree	2026-06-05T13:33:18.1640670Z ./include/imnodes/vcpkg/ports/ampl-mp
+build	Debug tree	2026-06-05T13:33:18.1640947Z ./include/imnodes/vcpkg/ports/amqpcpp
+build	Debug tree	2026-06-05T13:33:18.1641228Z ./include/imnodes/vcpkg/ports/anari
+build	Debug tree	2026-06-05T13:33:18.1641541Z ./include/imnodes/vcpkg/ports/anax
+build	Debug tree	2026-06-05T13:33:18.1641821Z ./include/imnodes/vcpkg/ports/angelscript
+build	Debug tree	2026-06-05T13:33:18.1642109Z ./include/imnodes/vcpkg/ports/angle
+build	Debug tree	2026-06-05T13:33:18.1642594Z ./include/imnodes/vcpkg/ports/ankurvdev-embedresource
+build	Debug tree	2026-06-05T13:33:18.1643043Z ./include/imnodes/vcpkg/ports/annoy
+build	Debug tree	2026-06-05T13:33:18.1643317Z ./include/imnodes/vcpkg/ports/antlr4
+build	Debug tree	2026-06-05T13:33:18.1643595Z ./include/imnodes/vcpkg/ports/any-lite
+build	Debug tree	2026-06-05T13:33:18.1644020Z ./include/imnodes/vcpkg/ports/anyrpc
+build	Debug tree	2026-06-05T13:33:18.1644294Z ./include/imnodes/vcpkg/ports/aom
+build	Debug tree	2026-06-05T13:33:18.1644600Z ./include/imnodes/vcpkg/ports/apache-datasketches
+build	Debug tree	2026-06-05T13:33:18.1644955Z ./include/imnodes/vcpkg/ports/approval-tests-cpp
+build	Debug tree	2026-06-05T13:33:18.1645270Z ./include/imnodes/vcpkg/ports/apr
+build	Debug tree	2026-06-05T13:33:18.1645543Z ./include/imnodes/vcpkg/ports/apr-util
+build	Debug tree	2026-06-05T13:33:18.1645826Z ./include/imnodes/vcpkg/ports/apriltag
+build	Debug tree	2026-06-05T13:33:18.1646104Z ./include/imnodes/vcpkg/ports/apsi
+build	Debug tree	2026-06-05T13:33:18.1646383Z ./include/imnodes/vcpkg/ports/arb
+build	Debug tree	2026-06-05T13:33:18.1646650Z ./include/imnodes/vcpkg/ports/arcus
+build	Debug tree	2026-06-05T13:33:18.1646925Z ./include/imnodes/vcpkg/ports/arg-router
+build	Debug tree	2026-06-05T13:33:18.1647225Z ./include/imnodes/vcpkg/ports/argagg
+build	Debug tree	2026-06-05T13:33:18.1647507Z ./include/imnodes/vcpkg/ports/argh
+build	Debug tree	2026-06-05T13:33:18.1647779Z ./include/imnodes/vcpkg/ports/argon2
+build	Debug tree	2026-06-05T13:33:18.1648056Z ./include/imnodes/vcpkg/ports/argparse
