@@ -34,6 +34,12 @@
 	<!-- define g++ compiler, options and files to compile -->
 	<property name="g++" value="${compilerPrefix}${cppCompiler}${compilerSuffix}"/>
 	<property name="g++-opts" value="-c -Wall -O2 -fmessage-length=0 -fPIC -std=c++17"/>
+        <fileset id="generated-jni-files" dir=".">
+                <include name="imgui_*.cpp"/>
+                <include name="imgui_internal_*.cpp"/>
+                <include name="imgui_extension_*.cpp"/>
+        </fileset>
+
 	<fileset id="g++-files" dir="../../src/main/native">
 		<exclude name="target/"/>
 		<include name="**/*.cpp"/>
@@ -99,6 +105,8 @@
 		<!-- FIXME this is pretty nasty :/ -->
 		<copy todir="${buildDir}">
 			<fileset refid="g++-files"/>
+                        <fileset refid="generated-jni-files"/>
+                        <fileset refid="generated-jni-files"/>
 			<fileset refid="gcc-files"/>
 		</copy>
                 <mkdir dir="${buildDir}"/>
@@ -180,6 +188,8 @@
 			<arg value="-o"/>
 			<targetfile/>
 			<fileset refid="g++-files"/>
+                        <fileset refid="generated-jni-files"/>
+                        <fileset refid="generated-jni-files"/>
 			<compositemapper>
 				<mapper type="glob" from="*" to="*.o"/>
 			</compositemapper>
