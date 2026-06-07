@@ -139,10 +139,12 @@
                     <arg value="-I../../../include/ImGuiFileDialog"/>
                     <arg value="-I../../../include/imgui-node-editor"/>
                     <arg value="-I../../../include/imgui_club"/>
+<arg value="-I../../../include/imgui_club/imgui_memory_editor"/>
 
                     <arg value="-I../../../include/ImGuiColorTextEdit"/>
 
                     <arg value="-I../../../include/imgui_club"/>
+<arg value="-I../../../include/imgui_club/imgui_memory_editor"/>
                     <arg value="-I../../src/main/native/imgui"/>
                     <arg value="-I../../../include/implot"/>
                     <arg value="-I../../../include/imnodes"/>
@@ -153,10 +155,12 @@
                     <arg value="-I../../../include/ImGuiFileDialog"/>
                     <arg value="-I../../../include/imgui-node-editor"/>
                     <arg value="-I../../../include/imgui_club"/>
+<arg value="-I../../../include/imgui_club/imgui_memory_editor"/>
 
                     <arg value="-I../../../include/ImGuiColorTextEdit"/>
 
                     <arg value="-I../../../include/imgui_club"/>
+<arg value="-I../../../include/imgui_club/imgui_memory_editor"/>
                         <arg value="-I/home/runner/work/imgui-java/imgui-java/include/imgui"/>
                         <arg value="-I/home/runner/work/imgui-java/imgui-java/include/implot"/>
                         <arg value="-I/home/runner/work/imgui-java/imgui-java/include/imnodes"/>
@@ -167,6 +171,7 @@
                     <arg value="-I../../../include/ImGuiFileDialog"/>
                     <arg value="-I../../../include/imgui-node-editor"/>
                     <arg value="-I../../../include/imgui_club"/>
+<arg value="-I../../../include/imgui_club/imgui_memory_editor"/>
 
                     <arg value="-I../../../include/ImGuiColorTextEdit"/>
 
@@ -181,6 +186,7 @@
                     <arg value="-I../../../include/ImGuiFileDialog"/>
                     <arg value="-I../../../include/imgui-node-editor"/>
                     <arg value="-I../../../include/imgui_club"/>
+<arg value="-I../../../include/imgui_club/imgui_memory_editor"/>
 
                     <arg value="-I../../../include/ImGuiColorTextEdit"/>
 
@@ -216,10 +222,12 @@
                     <arg value="-I../../../include/ImGuiFileDialog"/>
                     <arg value="-I../../../include/imgui-node-editor"/>
                     <arg value="-I../../../include/imgui_club"/>
+<arg value="-I../../../include/imgui_club/imgui_memory_editor"/>
 
                     <arg value="-I../../../include/ImGuiColorTextEdit"/>
 
                     <arg value="-I../../../include/imgui_club"/>
+<arg value="-I../../../include/imgui_club/imgui_memory_editor"/>
                     <arg value="-I../../src/main/native/imgui"/>
                     <arg value="-I../../../include/implot"/>
                     <arg value="-I../../../include/imnodes"/>
@@ -230,10 +238,12 @@
                     <arg value="-I../../../include/ImGuiFileDialog"/>
                     <arg value="-I../../../include/imgui-node-editor"/>
                     <arg value="-I../../../include/imgui_club"/>
+<arg value="-I../../../include/imgui_club/imgui_memory_editor"/>
 
                     <arg value="-I../../../include/ImGuiColorTextEdit"/>
 
                     <arg value="-I../../../include/imgui_club"/>
+<arg value="-I../../../include/imgui_club/imgui_memory_editor"/>
                         <arg value="-I/home/runner/work/imgui-java/imgui-java/include/imgui"/>
                         <arg value="-I/home/runner/work/imgui-java/imgui-java/include/implot"/>
                         <arg value="-I/home/runner/work/imgui-java/imgui-java/include/imnodes"/>
@@ -244,6 +254,7 @@
                     <arg value="-I../../../include/ImGuiFileDialog"/>
                     <arg value="-I../../../include/imgui-node-editor"/>
                     <arg value="-I../../../include/imgui_club"/>
+<arg value="-I../../../include/imgui_club/imgui_memory_editor"/>
 
                     <arg value="-I../../../include/ImGuiColorTextEdit"/>
 
@@ -258,6 +269,7 @@
                     <arg value="-I../../../include/ImGuiFileDialog"/>
                     <arg value="-I../../../include/imgui-node-editor"/>
                     <arg value="-I../../../include/imgui_club"/>
+<arg value="-I../../../include/imgui_club/imgui_memory_editor"/>
 
                     <arg value="-I../../../include/ImGuiColorTextEdit"/>
 
