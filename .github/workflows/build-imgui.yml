@@ -45,6 +45,16 @@ jobs:
         run: |
           echo "/opt/hostedtoolcache/ndk/r27c/x64/toolchains/llvm/prebuilt/linux-x86_64/bin" >> $GITHUB_PATH
 
+      - name: Generate Java JNI headers
+        run: |
+          chmod +x ./gradlew
+          ./gradlew :imgui-binding:compileJava
+
+      - name: Verify generated JNI headers
+        run: |
+          ls -la imgui-binding/build/generated/sources/headers/java/main
+          test -f imgui-binding/build/generated/sources/headers/java/main/imgui_ImDrawData.h
+
       - name: Build
         working-directory: imgui-binding/build/jni
         run: ant clean all
